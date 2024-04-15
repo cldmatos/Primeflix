@@ -1,73 +1,71 @@
 # Primeflix
-Catálogo Filmes - Exemplo Consumo/uso API The Movie DB
 
-# Getting Started with Create React App
+Projeto em REACT para exercitar a prática de react, utilizando/consumindo API e utilizando rotas dinâmicas, versionando via Github, hospedando via Vercel.
+- API utilizada: do site THE MOVIE DB - https://www.themoviedb.org/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnologias Utilizadas
 
-## Available Scripts
+- VSCode
+- Node.js
+- Axios
+- React (react-router-dom, react-dom/client, react-toastify) 
+- Github
+- Vercel
 
-In the project directory, you can run:
+## Estrutura de Pastas
 
-### `npm start`
+- `/`: Arquivos do projeto (basic config)
+- `/src`: Contém o código-fonte do projeto React.
+- `/screenshots`: Prints das telas da aplicação
+- `/public`: Arquivos nativos da aplicação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Links de acessos:
+Github: https://github.com/cldmatos/Primeflix
+Hospedagem: https://primeflix-claudio-matoss-projects.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Você instalou a versão mais recente do Node.js
+- Você tem uma compreensão básica de React e como iniciar um novo projeto
 
-### `npm run build`
+## Instalando Dependências
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para instalar as dependências, siga estas etapas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório (após fork): https://github.com/cldmatos/Primeflix
+git clone https://github.com/seu-usuario/seu-projeto.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navegue até o diretório do projeto:
+cd primeflix
 
-### `npm run eject`
+Instale as dependências:
+npm i --save react-toastify
+npm install react-router-dom
+npm install axios
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Executando o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para executar o projeto localmente, execute o seguinte comando:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Isso iniciará o servidor de desenvolvimento e abrirá o projeto no seu navegador padrão.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribuindo
 
-## Learn More
+Contribuições são o que fazem a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer serão **muito apreciadas**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork o projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
+3. Faça commit de suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Faça o push para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+Este é um projeto aberto, sem restrição de licença.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contato
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se você quiser entrar em contato comigo, você pode alcançar-me em claudiomatos@gmail.com

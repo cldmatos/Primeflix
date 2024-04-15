@@ -79,7 +79,7 @@ function Filme() {
                     </a>
                 </button>
                 <button>
-                    <a target="blank" rel="external" href={`http://localhost:3000`}>
+                <a rel="noopener noreferrer" href={`/`}>
                     Voltar </a>
                 </button>
             </div>
